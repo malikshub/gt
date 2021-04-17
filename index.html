@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Carousel.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Main.css">
   </head>
 
   <body class="text-start">
 
     <header>
+      <!-- NAVIGATION BAR START-->
       <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark" style="color: var(--bs-dark);">
         <div class="container-fluid">
           <a class="navbar-brand link-dark" href="#">
@@ -37,49 +39,99 @@
             </div>
         </div>
       </nav>
+      <!-- NAVIGATION BAR ENDED -->
     </header>
 
     <main>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <!-- Carousel START -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <button href="" type="button" class="btn btn-light btn-lg">Browse Content</button>     
+            <img src="assets/img/1.png" class="d-block mw-100 mh-100" alt="...">
+            <div class="carousel-caption d-block">
+              <button href="" type="button" class="btn btn-light">Browse Content</button>     
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/2.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <button href="" type="button" class="btn btn-light btn-lg">Browse Content</button>
+            <img src="assets/img/2.png" class="d-block mw-100 mh-100" alt="...">
+            <div class="carousel-caption d-block">
+              <button href="" type="button" class="btn btn-light">Browse Content</button>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/img/3.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <button href="" type="button" class="btn btn-light btn-lg">Browse Content</button>
+            <img src="assets/img/3.png" class="d-block mw-100 mh-100" alt="...">
+            <div class="carousel-caption d-block">
+              <button href="" type="button" class="btn btn-light">Browse Content</button>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!-- ARTICLE LIST START -->
+      <section class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Latest Blogs</h2>
+                <p class="text-center"> </p>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/git.png"></a>
+                    <h3 class="name">Whay is Git?</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/iso.png"></a>
+                    <h3 class="name">What is ISO?</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/aim.png"></a>
+                    <h3 class="name">Improve Your Aim</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 
-    <footer>
-      <p>Copyright &copy; Shubham Malik</p>
-    </footer>
+    <footer class="footer-dark">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Services</h3>
+                  <ul>
+                      <li><a href="#">Web design</a></li>
+                      <li><a href="#">Development</a></li>
+                      <li><a href="#">Hosting</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">Company</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                  <h3>Guild Tech</h3>
+                  <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+              </div>
+              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+          </div>
+          <p class="copyright">Guild Tech © 2021</p>
+      </div>
+  </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
 
