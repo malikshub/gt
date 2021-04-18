@@ -1,6 +1,6 @@
 .article-list {
-  color: #313437;
-  background-color: #fff;
+  color: #303336;
+  background-color: #ffffff;
 }
 
 .article-list p {
@@ -9,9 +9,13 @@
 
 .article-list h2 {
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-top: 40px;
   color: inherit;
+}
+
+.article-list h6 {
+  color: #7d8285;
 }
 
 @media (max-width:767px) {
@@ -61,7 +65,7 @@
   margin: 22px auto 0;
   line-height: 1;
   display: block;
-  color: #4f86c3;
+  color: #303336;
   opacity: 0.85;
   transition: opacity 0.2s;
   text-decoration: none;
