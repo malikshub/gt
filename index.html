@@ -44,29 +44,29 @@
 
     <main>
       <!-- Carousel START -->
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active padding">
             <img src="assets/img/1.png" class="d-block mw-100 mh-100" alt="...">
             <div class="carousel-caption d-block">
-              <a href="tech.html" role="button" class="btn btn-light">Browse Content</a>     
+              <a href="tech.html" role="button" class="btn btn-light">Browse Content <i class="fa fa-arrow-circle-right"></i></a>     
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active padding">
             <img src="assets/img/2.png" class="d-block mw-100 mh-100" alt="...">
             <div class="carousel-caption d-block">
-              <a href="photography.html" role="button" class="btn btn-light">Browse Content</a>
+              <a href="photography.html" role="button" class="btn btn-light">Browse Content <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active padding">
             <img src="assets/img/3.png" class="d-block mw-100 mh-100" alt="...">
             <div class="carousel-caption d-block">
-              <a href="gaming.html" role="button" class="btn btn-light">Browse Content</a>
+              <a href="gaming.html" role="button" class="btn btn-light">Browse Content <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@
     </section>
     </main>
 
-    <footer class="footer-dark">
+    <footer class="footer-dark bg-dark">
       <div class="container">
           <div class="row">
               <div class="col-sm-6 col-md-3 item">
@@ -135,6 +135,16 @@
       </div>
   </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>  
+      $(document).ready(function() {  
+         $("#myCarousel").swiperight(function() {  
+            $("#myCarousel").carousel('prev');  
+          });  
+         $("#myCarousel").swipeleft(function() {  
+            $("#myCarousel").carousel('next');  
+         });  
+      });  
+      </script>  
   </body>
 
 </html>
