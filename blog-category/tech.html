@@ -1,43 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" style="color: rgb(0, 0, 0);">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Blogs - Guild Tech</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <title>Technology Blogs | Guild Tech</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Carousel.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Main.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/Article-List.css">
+    <link rel="stylesheet" href="../assets/css/Main.css">
 </head>
 <body>
     <header>
         <!-- NAVIGATION BAR START-->
         <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top" style="color: var(--bs-dark);">
           <div class="container-fluid">
-            <a class="navbar-brand link-dark" href="index.html">
-              <img src="assets/img/logo.png" width="30px" height="30px" class="d-inline-block align-text-top"> 
+            <a class="navbar-brand link-dark" href="../index.html">
+              <img src="../assets/img/logo.png" width="30px" height="30px" class="d-inline-block align-text-top"> 
               Guild Tech</a>
             <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
               <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navcol-1">
                   <ul class="navbar-nav">
-                      <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link active" href="../index.html">Home</a></li>
                       <li class="nav-item dropdown"><a class="dropdown-toggle nav-link active" aria-expanded="false" data-bs-toggle="dropdown" href="#">Blogs&nbsp;</a>
-                          <div class="dropdown-menu"><a class="dropdown-item" href="tech.html">Tech</a><a class="dropdown-item" href="photography.html">Photography</a><a class="dropdown-item" href="gaming.html">Gaming</a></div>
+                          <div class="dropdown-menu"><a class="dropdown-item" href="tech.html">Tech</a>
+                            <a class="dropdown-item" href="photography.html">Photography</a>
+                            <a class="dropdown-item" href="gaming.html">Gaming</a>
+                          </div>
                       </li>
-                      <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-                      <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link active" href="../contact.html">Contact</a></li>
+                      <li class="nav-item"><a class="nav-link active" href="../about.html">About</a></li>
                   </ul>
               </div>
           </div>
         </nav>
         <!-- NAVIGATION BAR ENDED -->
       </header>
-     
-      <script src="assets/bootstrap/js/bootstrap.min.js"></script>    
+      <main>
+        <div class="padding">
+            <img src="../assets/img/tech/1.png" alt="technology" width="100%"> 
+        </div>
+        <section class="article-list">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center">All Tech Blogs</h2>
+                </div>
+                <div class="row articles">
+                    <div class="col-sm-6 col-md-4 shadow-lg p-3 mb-5 bg-body rounded item">
+                        <a href="#"><img class="img-fluid" src="../assets/img/tech/git.png"></a>
+                        <h3 class="name">Whay is Git?</h3>
+                        <p class="description">Git is an open source software which helps us to keep track of all the changes made to the source code along with the information associated with the changes made to it. We call such software as Version Control System.</p>
+                        <a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+    <!-- FOOTER START -->
+    <footer class="footer-dark bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Android Development</a></li>
+                        <li><a href="#">Content Writing</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-9 item text">
+                    <h3>Guild Tech</h3>
+                    <p>Guild Tech is the place where I will share my knowledge, thoughts, and understandings under the topics such as technology, photography and gaming. I will also share my learning and expiriences.</p>
+                </div>
+            </div>
+            <div class="col item social">
+            <a href="https://www.linkedin.com/in/malikshub/" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+            <a href="https://twitter.com/malikshub" target="_blank"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.instagram.com/click.trick/" target="_blank"><i class="icon ion-social-instagram"></i></a>
+            <a href="https://github.com/malikshub" target="_blank"><i class="icon ion-social-github"></i></a>
+            </div>
+            <p class="copyright">Guild Tech © 2021</p>
+        </div>
+    </footer>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
