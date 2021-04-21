@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me| Guild Tech Blogs</title>
+    <title>Contact Me | Guild Tech Blogs</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -45,16 +45,17 @@
             <div class="container" style="max-width: 540px;">
                 <div class="heading">
                     <h2>Contact Me</h2>
+                    <h6 style="text-align: center;">Send me a message and I will get back to you within 24 hours.</h6>
                 </div>
                 <form class="contact-form" method="POST"> 
                     <div class="mb-3"><label class="form-label" for="name">Your Name</label>
                         <input class="form-control item name" type="text" id="name" required></div>
                     <div class="mb-3"><label class="form-label" for="subject">Subject</label>
-                        <input class="form-control item subject" type="text" id="subject"></div>
+                        <input class="form-control item subject" type="text" id="subject" required></div>
                     <div class="mb-3"><label class="form-label" for="email">Email</label>
-                        <input class="form-control item email" type="email" id="email" ></div>
+                        <input class="form-control item email" type="email" id="email" required></div>
                     <div class="mb-3"><label class="form-label" for="message">Message</label>
-                        <textarea class="form-control item message" id="message"></textarea></div>
+                        <textarea class="form-control item message" id="message" required></textarea></div>
                     <div class="mb-3"><button class="btn btn-primary btn-lg d-block w-100" type="submit">Send Message</button></div>
                 </form>
             </div>
@@ -86,6 +87,7 @@
             <p class="copyright">Guild Tech © 2021</p>
         </div>
     </footer>
+
       <script src="assets/bootstrap/js/bootstrap.min.js"></script>   
       <script src="https://smtpjs.com/v3/smtp.js"></script>
       <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
