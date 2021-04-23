@@ -1,18 +1,12 @@
-<!-- Latest Blog On INDEX.HTML  -->
-<div class="col-sm-6 col-md-4 shadow-lg p-3 mb-5 bg-body rounded item">
-    <a href="#URL"><img class="img-fluid" src="IMG" alt=""></a>
-    <h3 class="name">TITLE</h3>
-    <p class="description">CONTENT</p>
-    <a class="action" href="#URL"><i class="fa fa-arrow-circle-right"></i></a>
-</div>
 
-<!-- Add Blog On Blog-Category Page -->
+<!-- Latest Blog On INDEX.HTM & Add Blog On Blog-Category Page -->
 <div class="col-sm-6 col-md-4 shadow-lg p-3 mb-5 bg-body rounded item">
     <a href="#URL"><img class="img-fluid" src="IMG" alt=""></a>
     <h3 class="name">TITLE</h3>
     <p class="description">CONTENT</p>
-     <a href="#URL"><button type="button" class="btn btn-outline-secondary" style="margin-top: 10px;">
-     Read More</button></a>
+     <a href="#URL">
+        <button type="button" class="btn btn-outline-secondary" style="margin-top: 10px;">Read More</button>
+    </a>
 </div>
 
 <!-- Final Blog Post  -->
