@@ -111,3 +111,13 @@
   color: inherit;
 }
 
+.article-dual-column .text li {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.article-dual-column .text code {
+  padding: 3px; 
+  background: #56585b;
+  color: #fff;
+}
