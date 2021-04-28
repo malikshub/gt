@@ -81,7 +81,7 @@
                         later), and git can also help create a online backup for your projects with the
                         help of online repository management systems such as Github, BitBucket, SourceForge 
                         and many more.</p>
-                        <h2>Beginning with Git</h2>
+                        <h2>Beginning with GIT</h2>
                         <h6>
                             <ol>
                                 <li>Install Git if you haven't done it yet from 
@@ -96,20 +96,62 @@
                                             from platforms such as Github using https or SSH link.</li>
                                      </ul>
                                 </li>
-                                <li>After creating a file we need to incule that file for the next 
+                                <li>After creating a file we need to inculde that file for the next 
                                     commit using <code>git add &#60file&#62</code> and <code>git add -A</code> the -A will add all the
-                                     files in the repository. <br> Note: The add command won't save the changes to the git repository untill we 
+                                     files in the repository. <br> Note: The add command won't save the changes to the git repository until we 
                                     commit those changes. 
                                 </li>
-                                <li>To save changes to repository use <code>git commit -m "commit messsage"</code>.</li>                  
-                                              
+                                <li>To save changes to your local repository use <code>git commit -m "commit message"</code>.</li>                  
+                                <li>After a commit if you want to revert back to the previous commit, use <code>git revert &#60commit-id&#62</code> </li>
                             </ol>
                         </h6>
+                        <h2>Some more useful GIT Commands</h2>
+                        <p>Branches are one of the most important part of the git universe. Lets say if you need to 
+                            add a particular feature to your project and you are not sure if you really sure if that 
+                            feature will work or not, then you can simply create a branch from that point and test 
+                            those features, if it works then you can merge that branch to your main branch. Branches
+                            also allows diferent people to work on same project simultaneously.</p>
+                            <h6>
+                                <ol>
+                                    <li>Use <code>git branch &#60branch-name&#62</code> to create a new branch.</li>
+                                    <li>Use <code>git checkout &#60branch-name&#62</code> to switch between branches.</li>
+                                    <li>Use <code>git merge &#60branch-name&#62</code> to merge a branch to your current branch.</li>
+                                </ol>
+                            </h6>
+                            <h2>Remote Repository for GIT</h2>
+                            <p>With the help of platform such as Github, BitBucket and SourceForge, you can take your 
+                                git repository to a online platform for remote access and to collaboration with yout teammates.
+                                Open source platform such as Github also provide services like free web hosting for your 
+                                static websites. <br>
+                                To create a online repository for your local repository, create a account on one of the 
+                                above disscused platforms, also you can create a empty repository which we would 
+                                link to your local repository.
+                            </p>
+                            <h6>
+                                <ol>
+                                    <li>Use <code>git remote add &#60name&#62 &#60url&#62</code> to create a new
+                                    connection to your remote repository, add a name as a shortcut to use url in other commands.
+                                    </li>
+                                    <li>Use <code>git push &#60name&#62 &#60branch-name&#62</code> to push the branch to remote and if 
+                                    the branch does not exist, this command will create one. </li>
+                                    <li>Use <code>git pull &#60name&#62</code> to pull the remote's copy of that branch and merge it with 
+                                        local repository. </li>
+                                </ol>
+                            </h6>
                     </div>
                 </div>
             </div>
+            <div class="text-center">
+                <h3>Drop your feedback or suggestion!!!</h3>
+                <a href="../../contact.html">
+                    <button type="button" class="btn btn-outline-dark" style="margin-bottom: 25px;">Send Message</button></a>
+            </div>
+                
         </div>
     </section>
+
+    
+
     <footer class="footer-dark bg-dark">
         <div class="container">
             <div class="row">
@@ -123,7 +165,7 @@
                 </div>
                 <div class="col-sm-6 col-md-9 item text">
                     <h3>Guild Tech</h3>
-                    <p>Guild Tech is the place where I will share my knowledge, thoughts, and understandings under the topics such as technology, photography and gaming. I will also share my learning and expiriences.</p>
+                    <p>Guild Tech is the place where I will share my knowledge, thoughts, and understandings on the topics such as technology, photography, and gaming. I will also share my learning and experiences.</p>
                 </div>
             </div>
             <div class="col item social">

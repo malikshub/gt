@@ -84,6 +84,11 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center">
+                <h3>Drop your feedback or suggestion!!!</h3>
+                <a href="../../contact.html">
+                    <button type="button" class="btn btn-outline-dark" style="margin-bottom: 25px;">Send Message</button></a>
+            </div>
         </div>
     </section>
 <!-- FOOTER -->
@@ -100,7 +105,7 @@
                 </div>
                 <div class="col-sm-6 col-md-9 item text">
                     <h3>Guild Tech</h3>
-                    <p>Guild Tech is the place where I will share my knowledge, thoughts, and understandings under the topics such as technology, photography and gaming. I will also share my learning and expiriences.</p>
+                    <p>Guild Tech is the place where I will share my knowledge, thoughts, and understandings on the topics such as technology, photography, and gaming. I will also share my learning and experiences.</p>
                 </div>
             </div>
             <div class="col item social">
