@@ -1,7 +1,8 @@
 
 <!-- Latest Blog On INDEX.HTM & Add Blog On Blog-Category Page -->
 <div class="col-sm-6 col-md-4 shadow-lg p-3 mb-5 bg-body rounded item">
-    <a href="#URL"><img class="img-fluid" src="IMG" alt=""></a>
+    <a href="#URL">
+    <img class="img-fluid rounded" src="IMG" alt=""></a>
     <h3 class="name">TITLE</h3>
     <p class="description">CONTENT</p>
      <a href="#URL">
@@ -55,7 +56,7 @@
                     <div class="intro">
                         <h1 class="text-center">Your Wonderful Article Title</h1>
                         <p class="text-center"><span class="by">by</span> <a href="../../about.html">Shubham Malik</a><span class="date">April 24th, 2021 </span></p>
-                        <img class="img-fluid" src="">
+                        <img class="img-fluid rounded img-thumbnail" src="">
                     </div>
                 </div>
             </div>
