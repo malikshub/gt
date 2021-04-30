@@ -48,8 +48,8 @@
         <!-- NAVIGATION BAR ENDED -->
     </header>
 
-    <!-- MAIN -->
-<section class="article-dual-column">
+<!-- MAIN -->
+<section class="article-dual-column">  
         <div class="container padding">
             <div class="row">
                 <div class="col-md-10 offset-md-1">
@@ -119,3 +119,38 @@
         </div>
     </footer>
     <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+
+<!-- Title || Max 65 characters-->
+<title>your keyword rich title of the website and/or webpage</title>
+
+<!-- Description || Max 155 characters -->
+<meta name="description" content="description of your website/webpage, make sure you use keywords!">
+
+<!-- Og Title || Max 35 characters -->
+<meta property="og:title" content="short title of your website/webpage" />
+
+<!-- Og Url || Full link to the current webpage address -->
+<meta property="og:url" content="https://www.example.com/webpage/" />
+
+<!-- Og Description || Max 65 characters -->
+<meta property="og:description" content="description of your website/webpage">
+
+<!-- Og Image -->
+<meta property="og:image" content="//cdn.example.com/uploads/images/webpage_300x200.png">
+
+<!-- Og Type -->
+<meta property="og:type" content="article" />
+
+<!-- Og Locale -->
+<meta property="og:locale" content="en_GB" />
+<meta property="og:locale:alternate" content="fr_FR" />
+<meta property="og:locale:alternate" content="es_ES" />
+
+<!-- Page Info
+		https://stackoverflow.com/questions/19778620/provide-an-image-for-whatsapp-link-sharing
+-->
+
