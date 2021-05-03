@@ -1,18 +1,21 @@
-@page {
-    size: auto;
+html {
+  scroll-behavior: smooth;
 }
 
-.padding{
-    padding-top: 65px; 
-    padding-left: 7px;
-    padding-right: 7px;
+@page {
+  size: auto;
+}
+
+.padding {
+  padding-top: 65px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .heading h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-top: 40px;
-    color: inherit;
-    text-align: center;
-  }
-
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  color: inherit;
+  text-align: center;
+}

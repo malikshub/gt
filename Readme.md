@@ -1,4 +1,3 @@
-
 <!-- Latest Blog On INDEX.HTM & Add Blog On Blog-Category Page -->
 <div class="col-sm-6 col-md-4 shadow-lg p-3 mb-5 bg-body rounded item">
     <a href="#URL">
@@ -12,7 +11,8 @@
 
 <!-- Final Blog Post  -->
 <!-- head content -->
-<link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="../../assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="../../assets/css/styles.css">
@@ -20,13 +20,15 @@
     <link rel="stylesheet" href="../../assets/css/Main.css">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="../../assets/fonts/ionicons.min.css">
+
 <!-- nav bar -->
+
     <header>
         <!-- NAVIGATION BAR START-->
         <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top" style="color: var(--bs-dark);">
           <div class="container-fluid">
             <a class="navbar-brand link-dark" href="../../index.html">
-              <img src="../../assets/img/logo.png" width="30px" height="30px" class="d-inline-block align-text-top"> 
+              <img src="../../assets/img/logo.png" width="30px" height="30px" class="d-inline-block align-text-top">
               Guild Tech</a>
             <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
               <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navcol-1">
@@ -120,10 +122,6 @@
     </footer>
     <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
 
-
-
-
-
 <!-- Title || Max 65 characters-->
 <title>your keyword rich title of the website and/or webpage</title>
 
@@ -153,4 +151,3 @@
 <!-- Page Info
 		https://stackoverflow.com/questions/19778620/provide-an-image-for-whatsapp-link-sharing
 -->
-
