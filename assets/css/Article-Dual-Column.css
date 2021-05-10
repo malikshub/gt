@@ -1,7 +1,7 @@
 .article-dual-column {
   color: #56585b;
   background-color: #fff;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 14px;
 }
 
@@ -50,7 +50,7 @@
   line-height: 1.45;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .article-dual-column .text p {
     font-size: 16px;
   }
@@ -65,7 +65,7 @@
   color: #333;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .article-dual-column .text h2 {
     font-size: 20px;
   }
@@ -73,16 +73,16 @@
 
 .article-dual-column .text figure {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .article-dual-column .text figure img {
-  margin-bottom: 12px;
+  margin-bottom: 7px;
   max-width: 100%;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .article-dual-column .toc {
     border: 1px solid #d3d3d3;
     padding: 20px 0 15px;
@@ -117,7 +117,12 @@
 }
 
 .article-dual-column .text code {
-  padding: 3px; 
+  padding: 3px;
   background: #56585b;
   color: #fff;
+}
+
+.article-dual-column a {
+  color: #333;
+  padding-left: 3px;
 }
